@@ -1,0 +1,161 @@
+head, body{
+    background-color: #755E34;
+    color: whitesmoke;
+    font-family: Verdana;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header{
+    background-color: #F5C56D; 
+    height: 200px;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 0%;
+}
+
+img{
+    height: 150px;
+    width: auto;
+}
+
+#reportagem{
+    height: 250px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction:unset;
+    list-style-type: none;
+}
+
+nav ul a{
+    
+    text-decoration: none;
+    color: black;
+    transition: all ease 1.2s 0.01s;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    border-bottom: 10px #F7B733;
+    font-size: 30px;
+}
+
+#item {
+    text-decoration: none;
+    list-style-type: none;
+    color:  #756B57;
+    font-size: 18px;
+    font-family: Verdana;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 60px;
+    padding-left: 60px;
+    float: none;
+}
+
+#item:hover{
+    background-color: #756B57;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    animation-name: aumentar;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+img{
+    width: auto;
+    height: auto;
+
+}
+
+article, section{
+    display: block;
+    background-color: #F7E0B6;
+    opacity: 0.8;
+    padding: 15px;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+h2, h3, p, a{
+    color: #382d28;
+}
+
+p{
+    text-align: justify;
+}
+
+footer{
+    margin: 0px;
+    margin-bottom: 0px;
+    background-color: #F5C56D;
+    display: block;
+    flex-direction: inherit;
+    padding: 50px;
+}
+
+#footer{
+    color: black;
+    font-family: Verdana;
+    text-align: center;
+}
+
+#titulo{
+    color: black;
+    animation-name: crescendo;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+    text-align: center;
+}
+
+#link:link{
+    color: black;
+}
+
+#link:visited{
+    color:  #756B57;
+}
+
+@keyframes crescendo{
+    0%{
+        transform: scale(1);
+        color: #756B57;
+    }
+
+    55%{
+        color: #F5C56D;
+    }
+
+    100%{
+        transform: scale(2) rotate(360deg);
+        color: #C29C55;
+    }
+}
+
+.curiosidades, .home, .últimas, .covid{
+    text-align: center;
+
+}
+
+.covidimg{
+    width: 900px;
+    height: 433px;
+
+}
